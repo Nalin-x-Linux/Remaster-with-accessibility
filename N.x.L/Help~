@@ -1,0 +1,190 @@
+Version UBUNTU-N.x.L-13.04.01-Nalin.x.Linux@gmail.com
+
+
+Default password is l. 
+You may change your password using following command.
+sudo passwd ubuntu
+
+
+Installer guide for ubuntu 13.04.01.
+
+Note: The installation process is fully accessible to a visually challenged user. Before you start, please note down carefully the partitions on your hard disk, their sizes and the operating systems residing on them. You will need at least 13-15 GB disk space to install the Ubuntu 12.04.10. If it is not there, you will have to delete or resize an existing partition to free the required disk space. So decide in advance which partitions you could delete or resize if required. 1. Insert the DVD and restart the computer. For a visually impaired he should change the bios option to boot from cd in advance at the time of the purchase of the computer itself so that he will be totally enabled in his installation process. If one has not done so in advance, seek the help of a sighted guide for the following.  Looking at the screen A message indicating the button for entering boot options menu will be displayed at the top or bottom. The button may vary from system to system. It may be Del or F2 or F9 or F12. Keep pressing the appropriate button while the system is starting. This will bring up the boot options menu. Select the option to boot from CD/ DVD and press Enter. If your computer is already configured to boot from CD/ DVD when one is loaded, this step is not required. When the computer boots from the live DVD, . boot live system appears Just press Enter to continue.
+
+
+1. After the DVD is in live-boot mode and also welcome to orca is heard, one should press installer icon on the desktop and then enter the password which is "l"  so that the installer will appear. This is the first screen in the installation process. Choose the language (default is English) and click on the continue button. Sometimes the installer may skip this step for language selection and directly go to the next step.
+
+2. Next is the most important step in the installation process.  and you decide where on your hard disk the new OS is going to be installed.After 
+the selection of language there will appear three radio buttons from which one can choose how he can 
+install ubuntu. One can navigate through these radio buttons by using up and down arrow. 
+
+WARNING: NEVER CHOOSE THE SECOND OPTION viz. ERASE AND USE THE ENTIRE DISK. THIS WILL ERASE ALL EXISTING OPERATING SYSTEMS, APPLICATIONS AND DATA FROM YOUR HARD DISK, CREATE A SINGLE PARTITION OCCUPYING THE WHOLE DISK AND INSTALL THE NEW OS THEREIN.
+
+To retain the existing operating systems, applications and data, and to have enough control on the installation process, choose the last option  namely Specify partitions manually (advanced). Click the continue button. 
+
+
+3. Then a table appears on the screen. To navigate through this table one can use arrow keys. In the 
+first row the name of the partition is shown and in the second row the format of each partition  and 
+
+in the  Fifth row the size of each partition and in the sixth row the used space is shown. Select the partition to be deleted  using the arrow key  and press the delete key so that free space will be created.
+
+4. Now one can see the free space in the first row and we should create 2 partitions one swap and root.
+
+5. First let us create the swap partition 
+After selecting the free-space   press enter, and then a new window appears for creating new partitions. 
+press tab till you listen to  new partition size in megabytes  then type the double the size of ram 
+here. if it is 2 GB type 4000 and again tab till you reach used as position and then down arrow till you reach 
+swap area and then tab till you reach ok. 
+Press ok and now you have created swap area 
+
+6. Now let us create the root partition. press enter in the free space which would appear in the first 
+row and create new partition window will appear and then shift tab twice and you will reach mount point 
+and then press down arrow once And orca will announce slash. now tab till you listen to ok and press 
+enter. Free-space after creating the swap area will be used for root partition.
+
+7. Now the system is ready for installation. Press tab till you reach install now button and press enter 
+and installation will start. 
+
+Please note that one can revert the installation process by clicking revert or back button or quit the 
+installation process entirely by pressing quit button. however once the install now button is clicked 
+installation process will start.
+
+8. Once the installation starts, a new window will appear and
+you will enter your name which is ubuntu and leave the next 2 tabs without any change for installer itself will fill in. Then enter password which is l and again confirm password 
+which is l. now tab and press up arrow to make it login automatically  and again tab till you reach 
+continue button and click here. 
+
+9. Now wait for ten to fifteen minutes  and orca will ask you to restart  the computer. now enter the 
+restart now button and then computer will  eject the DVD. take the DVD out and press enter and the computer will restart.
+
+10. You may change your password using command as folows.
+sudo passwd ubuntu
+
+
+Major accessibility features of the package.
+1. hundred percent installation support for the visually challenged.
+2. speech support for English, hindi, malayalam, tamil, kannada with male and female variants.
+3. Print reading facility to read English, hindi, malayalam and other 24 languages using a scanner.
+4. facility for producing printed materials in English, hindi, malayalam, tamil, and spanish using six key approach of the braille.
+5.typing tutor for practising English typing.
+6. musical instrument for playing different instruments.
+7. 3 chess engines with total accessibility.
+internet facility firefox, so customised that one can read news papers, magazines, Wikipedia in English,Hindi malayalam, tamil, kannada, using the speech support.
+8.  Emailing facility using Thunderbird.
+9. english malayalam dictionary and English to english dictionary artha.
+10. facility for converting text in to wave using audio converter.
+11. audio recording and editing facility using audacity.
+12. facility for reading daisy format using  smplayer with different speed levels.dbr and audacious.
+13. word processing facility using libre office writer and gedit.
+14. facility to learn system configuration using hardinfo.
+15. facility to choose English, malayalam and hindi layout using alt+capslock 
+16. different shortcut keys for different purposes given in the end.
+17. CD/DVD burning facility using gnome-baker.
+18. Internet chatting using pidgin, skype.
+20. Support for youtube downloading using clickgrab and mobilemedia-converter.
+21. Libre office calc for spreadsheet and impress for presentation.
+
+
+SHORTCUTS 
+
+Alt+Home             Open Home Folder
+Super+up             Increase the system volume,
+Super+down           Decrease the system volume,
+Super+8              Mute system volume ,
+Super+ctrl+b	     Battery-info,
+alt+ctrl+o           For screen reader, 
+alt+ctrl+backspace   For log out at any time,
+Alt+Caps-Lock  	     For layout change (Malayalam,Hindi,Tamil),
+orca+Up              Increase speech rate,
+orca+Down            Decrease speech rate,
+orca+Right           Increase speech pitch,
+orca+Left            Decrease speech pitch,
+ 
+
+Super+ctrl+page-up        Screen off,
+Super+ctrl+page-down      Screen on.
+Super+ctrl+end            Touch-pad Off,
+Super+ctrl+Home	          Touch-pad On.
+
+Alt+Ctrl+Tab for 	  Top/Bottom panel.
+
+SPECIAL FEATURES
+
+
+EASPEAK-HINDI,MALAYALAM,TAMIL,KANNADA
+To change the speech into your language first go to orca preferences and select the speech page then select your language from person Combo-box
+
+
+TALKING-ENGLISH-MALAYALAM-DICTIONARY
+To open the dictionary go to education menu and enter TALKING-English-Malayalam-Dictionary. 
+
+VLC : To play VCD and DVD, go to VLC menu in sound and video menu, and Enter the VLC-V.C.D or VLC-D.V.D.
+
+TEAM-VIEWER
+It is a software to get technical assistance from a remote computer. 
+
+VCDIMAGER
+Vcdimager in other menu can used to copy any VCD to any Directory.
+
+TERMINAL CHESS
+there are 3 chess programmed in this addition.phalanx, hoichess and gnu-chess.
+in order to play please open the terminal and type the name of the programme. now you can use the keyboard to play with the computer using chess notations. 
+
+MUSICAL INSTRUMENT.
+
+we have included lmms for playing different musical instruments.open the INSTRUMENTS in other menu. now press shift tab and space to play the first instrument. use keyboard to play different notes.
+to select the next instrument press ctrl w  to quit the first instrument and press shift tab and space. you can go on selecting other instruments like this. to quit lmms press alt f4 and alt tab then press n for not to save.
+though there is no support of orca in lmms, it is very easy to use.
+
+
+FEMALE VOICES AND OTHER VOICES.
+we have kept the nvda  voice as default and other voices including female voices which can be changed from orca preferences .
+
+SM-PLAYER .
+
+we have configured sm player so that we can use vcd DVD and other sound format easily. a very useful utility in sm player is that it helps us to play audio files at different speed levels with out changes in the pitch. you can use "[" is for slow speed and "]" for higher speed. Also Shift+b for next file and Shift+z for previous file, and 0 and 9 for volume control. 
+>(Grater) - for next file.
+<(Less) - for previous file.
+
+
+Sharada braille writer 1.6.2
+
+Sharada braille writer is a six key approach to producing print materials. 
+letters f, d, s, j, k, and l represent 1 2 3 4 5 and 6 of the braille dots respectively. By pressing f and s together will produce letter k and like. 
+
+
+
+Linux-intelligent-ocr-solution-1.7
+
+Linux-intelligent-ocr-solution
+
+Lios is a free and open source software for converting print in to text using either scanner or a camera,
+It can also produce text out of scanned images from other sources such as Pdf,
+Image or Folder containing Images. Program is given total accessibility for visually impaired. Lios is written in python,
+and we release it under GPL3 license. Lios will work with Debian based operating systems. There are great many possibilities for this program,
+Feedback is the key to it, Expecting your feedback Nalin.x.Linux@Gmail.com
+
+
+Disclaimer
+
+    Copyright (c) 2008-2013 Lios Development Team 
+
+    All rights reserved . Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met: 
+
+    Redistributions of source code must retain the below copyright notice, 
+
+    this list of conditions and the following disclaimer. 
+
+    Redistributions in binary form must reproduce the below copyright notice, 
+
+    this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. 
+
+    Neither the name of the nor the Lios team names of its 
+
+    contributors may be used to endorse or promote products derived from this software without specific prior written permission. 
+
+    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE." 
+
+FREE SOFTWARE FREE SOCIETY
+
+
+We firmly believe that accessibility is not alone a matter of speech and tactile support, but it can be a thing of intuition as well. For your feed back and suggestion contact Nalin.x.Linux@gmail.com and sath.linux@gmail.com 
