@@ -69,6 +69,7 @@
 76 openssh-server
 77 Chease
 78 fping
+79 vim
 
 //Task to do
 1 Shortcut for vcd imager
@@ -114,7 +115,8 @@
 41 Bookmark 
 42 Malayalam Sample document
 43 Teamvewer licence
-44 sed -i 's/ubiquity --desktop %k gtk_ui/ubiquity --automatic/' $UBIQUITYDESKTOP &> /dev/null  
+44 orca uppercase and lowercase
+45 sed -i 's/ubiquity --desktop %k gtk_ui/ubiquity --automatic/' $UBIQUITYDESKTOP &> /dev/null  
 	 add this to remater script. befor line number 478 for resetting the installer icon
 
 
@@ -135,3 +137,4 @@
 3 janitor
 4 Trash
 5 Chromimum
+6 sudo apt-get clean
