@@ -70,6 +70,7 @@
 77 Chease
 78 fping
 79 vim
+80 nemo
 
 //Task to do
 1 Shortcut for vcd imager
@@ -116,7 +117,8 @@
 42 Malayalam Sample document
 43 Teamvewer licence
 44 orca uppercase and lowercase
-45 sed -i 's/ubiquity --desktop %k gtk_ui/ubiquity --automatic/' $UBIQUITYDESKTOP &> /dev/null  
+45 nemo as default
+46 sed -i 's/ubiquity --desktop %k gtk_ui/ubiquity --automatic/' $UBIQUITYDESKTOP &> /dev/null  
 	 add this to remater script. befor line number 478 for resetting the installer icon
 
 
@@ -134,7 +136,6 @@
 //Task to do before each remastersys
 1 bash_history clear
 2 privacy clear
-3 janitor
+3 sudo apt-get clean
 4 Trash
 5 Chromimum
-6 sudo apt-get clean
