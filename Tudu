@@ -71,6 +71,9 @@
 78 fping
 79 vim
 80 nemo
+81 checkinstall
+82 acpi
+83 unetbootin
 
 //Task to do
 1 Shortcut for vcd imager
@@ -118,9 +121,10 @@
 43 Teamvewer licence
 44 orca uppercase and lowercase
 45 nemo as default
-46 sed -i 's/ubiquity --desktop %k gtk_ui/ubiquity --automatic/' $UBIQUITYDESKTOP &> /dev/null  
+46 usb-creator-gtk from PPA
+47 sed -i 's/ubiquity --desktop %k gtk_ui/ubiquity --automatic/' $UBIQUITYDESKTOP &> /dev/null  
 	 add this to remater script. befor line number 478 for resetting the installer icon
-
+	 
 
 //Tudu
 1 Espeak 1.47
