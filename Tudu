@@ -1,76 +1,77 @@
 //Software to Install
-1 sharada-braille-writer
-2 Festival/Flite
-3 Festival/Flite speech dispatcher
-4 Remove apport
+1 synaptic
+2 festival
+3 flite
+4 blueman
 5 nautilus-dropbox
 6 vlc
-7 Gpart
-8 Warzon2100
-9 Libttspico-utils
-10 AOTT
-11 LMMS 
-12 Workspace 
-13 Artha
-14 Talking English Malayalam Dict
-15 Tuxpaint
-16 Xmoto
-17 Gnu-Chess Gtk
-18 Phlanx 
-19 Hoichess
-20 Supertux
-21 Xsane
-22 MyPaint
-23 Chromimum
-24 Pidgin
-25 skype
-26 clipgrab
-27 Artha startup
-28 Rematersys-Latest
-29 Braille writer
-30 Lios
-31 privacy searching off
-32 Ubuntu restricted extras
-33 GeoGebra
-34 Calibre
-36 VCD Imager 
-39 Accerciser 
-40 Geany
-41 Ipython
-42 Build-essential 
-43 Git 
-45 Chees 
-46 DeVeDe
+7 openjdk-7-jdk
+8 warzon2100
+9 libttspico-utils
+10 ibus-m17n
+11 lmms
+12 apt-cacher
+13 artha
+14 irssi
+15 tuxpaint
+16 xmoto
+17 gnuchess
+18 phlanx 
+19 hoichess
+20 supertux
+21 xsane
+22 mypaint
+23 chromimum-browser
+24 htop
+25 xchat
+26 espeakup
+27 unetbootin
+28 geany
+29 git
+30 libttspico
+31 fping
+32 ubuntu-restricted-extras
+33 geogebra
+34 calibre
+36 vcdimager 
+39 gnome-shell-extentions 
+40 geany
+41 ipython
+42 build-essential 
+43 git 
+45 cheess
+46 devede
 47 espeak-speech-synthasiser 
 48 audacious
-49 TeamViewer 
-50 Hydrogen
-51 Imagination
-52 Mixxx
-55 Winff
-57 Bluetooth Manager
-58 LVM
-59 Orcacle VM Virtual Box
+49 teamViewer 
+50 hydrogen
+51 imagination
+52 mixxx
+55 winff
+57 autoconf
+58 cmake
+59 virtualbox
 60 sysinfo
-61 Terminator
-63 DBR Daisy book reader
-64 p7zip full
-65 p7zip rar
-66 Espeakup
-67 Hardinfo
-68 Orca pich rate shortcuts
-69 Eject and eject -t shortcuts
-70 Startup Disk Creator
-71 Mobile Media Converter
-72 Gdebi
+61 rerminator
+63 xsane
+64 p7zip-full
+65 p7zip-rar
+66 checkinstall
+67 hardinfo
+68 autopoint
+69 axel
+70 usb-disk-creator
+71 figlet
+72 gdebi
 73 gnome-tweek-tool
-74 nautilus-dropbox
-75 cowsay,figlet,sl
+74 sl
+75 cowsay,figlet
 76 openssh-server
-77 Chease
-78 fping
+77 flashplugin-installer
+78 ssh
 79 vim
-80 nemo
+80 speech-dispatcher-festival
+91 speech-dispatcher-flite
 81 checkinstall
 82 acpi
 83 unetbootin
@@ -140,7 +141,7 @@ http://www.webupd8.org/2013/10/system-wide-pulseaudio-equalizer.html
 24 installer costomseed
 25 installer conf
 26 libreoffice dict enable
-27 Adobe Reader
+27 privacy searching off
 28 Help poweroff key
 29 Terminator mouse over ride
 30 Layouts malayalam,hindi,english.
@@ -169,10 +170,9 @@ http://www.webupd8.org/2013/10/system-wide-pulseaudio-equalizer.html
 2 Dropbox startup disable
 
 //Future 
+Accerciser
 1 Gnome-Baker
-2 Tuxmath
-3 Tuxtype
-4 Pulse audio equalizer
+2 Accerciser
 5 Microphone input
 
 //Task to do before each remastersys
