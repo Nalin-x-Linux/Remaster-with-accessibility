@@ -159,28 +159,34 @@
 42 Malayalam Sample document
 43 Teamvewer licence
 44 orca uppercase and lowercase
-45 chromevox
-46 sed -i 's/ubiquity --desktop %k gtk_ui/ubiquity --automatic/' $UBIQUITYDESKTOP &> /dev/null  
+45 sed -i 's/ubiquity --desktop %k gtk_ui/ubiquity --automatic/' $UBIQUITYDESKTOP &> /dev/null  
 	 add this to remaster script. befor line number 478 for resetting the installer icon
-47 volume control shortcuts
+46 volume control shortcuts
 
 
 
-//Future 
-Accerciser
+//Remaining
 1 Gnome-Baker
 2 Accerciser
 3 festvox
 4 angela-open-talking-typer
 5 Microphone input
+6 chromevox
+7 touchpad on/off
+8 screen on/off
+9 smplayer shortcuts
+10 kill xserver
+11 ubiquity automatic
+12 Artha non tray
 
 //Task to do before remastersys
-1 sudo apt-get clean
-2 bash_history clear
-3 Firefox
-4 Trash
-5 Activity log
-6 Version
+1 Edit Help
+2 sudo apt-get clean
+3 bash_history clear
+4 Firefox
+5 Trash
+6 Activity log
+7 Version
 
 
 
