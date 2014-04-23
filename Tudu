@@ -33,12 +33,16 @@
 32 ubuntu-restricted-extras
 33 geogebra
 34 calibre
-36 vcdimager 
+35 cuneiform
+36 vcdimager
+37 mpg321
+38 vorbis-tools
 39 gnome-shell-extentions 
 40 geany
 41 ipython
 42 build-essential 
-43 git 
+43 git
+44 tesseract
 45 cheess
 46 devede
 47 espeak-speech-synthasiser 
@@ -47,12 +51,16 @@
 50 hydrogen
 51 imagination
 52 mixxx
+53 gnome-chess
+54 gparted
 55 winff
+56 lame
 57 autoconf
 58 cmake
 59 virtualbox
 60 sysinfo
 61 rerminator
+62 dots
 63 xsane
 64 p7zip-full
 65 p7zip-rar
@@ -71,10 +79,21 @@
 78 ssh
 79 vim
 80 speech-dispatcher-festival
-91 speech-dispatcher-flite
-81 checkinstall
+81 speech-dispatcher-flite
 82 acpi
 83 unetbootin
+84 terminator
+85 gimp
+86 gscan2pdf
+87 transmission-gtk
+88 smplayer
+89 audacity
+90 wine
+91 youtube-dl
+92 language-pack-ml
+93 language-pack-hi
+94 language-pack-ta
+95 language-pack-kn
 
 
 //Outside
