@@ -137,7 +137,7 @@ http://www.webupd8.org/2013/10/system-wide-pulseaudio-equalizer.html
 1 Shortcut for vcd imager
 2 Screensaver 30 minut
 3 gksu-properties
-4 sharada-braille-writer with orca
+4 sharada-braille-writer with orca(key echo false, echo by charcter true)
 5 calc speak cell
 6 NxL Copy
 7 Auto Login
@@ -178,11 +178,14 @@ http://www.webupd8.org/2013/10/system-wide-pulseaudio-equalizer.html
 42 Malayalam Sample document
 43 Teamvewer licence
 44 orca uppercase and lowercase
-45 nemo as default
-46 usb-creator-gtk from PPA
+45 
+46 
 47 sed -i 's/ubiquity --desktop %k gtk_ui/ubiquity --automatic/' $UBIQUITYDESKTOP &> /dev/null  
 	 add this to remater script. befor line number 478 for resetting the installer icon
-	 
+48 Desktop wallpaper
+48 Window Minimise maximize
+49 Ubuntu-14.04-N-x-L
+
 
 //Tudu
 1 Espeak 1.47
@@ -199,4 +202,4 @@ Accerciser
 2 privacy clear
 3 sudo apt-get clean
 4 Trash
-5 Chromimum
+5 Firefox
