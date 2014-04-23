@@ -73,7 +73,7 @@
 72 gdebi
 73 gnome-tweek-tool
 74 sl
-75 cowsay,figlet
+75 cowsay
 76 openssh-server
 77 flashplugin-installer
 78 ssh
@@ -146,10 +146,10 @@ http://www.webupd8.org/2013/10/system-wide-pulseaudio-equalizer.html
 10 Grub tune
 11 Home icon visible
 12 Trash icon visible
-13 Eject -1
+13 Eject -l
 14 Touchpad Enable/disable
 15 screen on/off
-16 Poweroff using gnome-session-quit 
+16 Poweroff using gnome-session-quit --power-off
 17 Battery info using acpi
 18 Geany - sh,c,c++,python 
 19 Readme icon
@@ -161,7 +161,7 @@ http://www.webupd8.org/2013/10/system-wide-pulseaudio-equalizer.html
 25 installer conf
 26 libreoffice dict enable
 27 privacy searching off
-28 Help poweroff key
+28 Window Minimise maximize
 29 Terminator mouse over ride
 30 Layouts malayalam,hindi,english.
 31 Login sound (canberra-gtk-play --id="desktop-login")
@@ -169,8 +169,8 @@ http://www.webupd8.org/2013/10/system-wide-pulseaudio-equalizer.html
 33 Orca Shourtcut
 34 Key to kill X server shortcut
 35 Key to change layout
-36 Firefox Ant video
-37 orca - speech dispatcher remove
+36 Desktop wallpaper
+37 Ubuntu-14.04-N-x-L
 38 Flite,speech-dispatcher,#
 39 Firefox padma plugin
 40 Audacity Startup 
@@ -178,18 +178,14 @@ http://www.webupd8.org/2013/10/system-wide-pulseaudio-equalizer.html
 42 Malayalam Sample document
 43 Teamvewer licence
 44 orca uppercase and lowercase
-45 
-46 
-47 sed -i 's/ubiquity --desktop %k gtk_ui/ubiquity --automatic/' $UBIQUITYDESKTOP &> /dev/null  
-	 add this to remater script. befor line number 478 for resetting the installer icon
-48 Desktop wallpaper
-48 Window Minimise maximize
-49 Ubuntu-14.04-N-x-L
+45 chromevox
+46 sed -i 's/ubiquity --desktop %k gtk_ui/ubiquity --automatic/' $UBIQUITYDESKTOP &> /dev/null  
+	 add this to remaster script. befor line number 478 for resetting the installer icon
+
 
 
 //Tudu
-1 Espeak 1.47
-2 Dropbox startup disable
+
 
 //Future 
 Accerciser
