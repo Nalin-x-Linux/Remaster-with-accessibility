@@ -156,7 +156,7 @@ http://www.webupd8.org/2013/10/system-wide-pulseaudio-equalizer.html
 20 Instruments icon
 21 Vcdimager icon
 22 Smplayer speed without pitch alteration,shortcuts
-23 Espeak Voices /usr/lib/i386-linux-gnu/espeak-data/
+23 Espeak Voices /usr/lib/i386-linux-gnu/espeak-data/  x86_64-linux-gnu
 24 installer costomseed
 25 installer conf
 26 libreoffice dict enable
