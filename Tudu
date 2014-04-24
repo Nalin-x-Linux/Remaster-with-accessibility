@@ -95,6 +95,7 @@
 94 language-pack-ta
 95 language-pack-kn
 96 python-gst0.10(For DBR-Gtk)
+97 testdisk
 
 
 //Outside
@@ -159,10 +160,12 @@
 42 Malayalam Sample document
 43 Teamvewer licence
 44 orca uppercase and lowercase
-45 sed -i 's/ubiquity --desktop %k gtk_ui/ubiquity --automatic/' $UBIQUITYDESKTOP &> /dev/null  
-	 add this to remaster script. befor line number 478 for resetting the installer icon
+45 sed -i "s/sh -c 'ubiquity gtk_ui'/ubiquity --automatic/" $UBIQUITYDESKTOP &> /dev/null  
+	 add this to remaster script. after line number 478 for resetting the installer icon
 46 volume control shortcuts
-
+47 switch off artha notify
+48 orca startup
+49 File tests
 
 
 //Remaining
@@ -172,12 +175,7 @@
 4 angela-open-talking-typer
 5 Microphone input
 6 chromevox
-7 touchpad on/off
-8 screen on/off
-9 smplayer shortcuts
-10 kill xserver
-11 ubiquity automatic
-12 Artha non tray
+
 
 //Task to do before remastersys
 1 Edit Help
@@ -187,7 +185,6 @@
 5 Trash
 6 Activity log
 7 Version
-
 
 
 //Links
